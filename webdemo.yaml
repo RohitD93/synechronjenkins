@@ -2,6 +2,7 @@
 -
   name: This playbook is for Jenkins and Ansible project
   hosts: "all"
+  become_user: root
 
   tasks:
     -
